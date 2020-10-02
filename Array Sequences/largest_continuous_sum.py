@@ -13,7 +13,7 @@ def large_cont_sum(arr):
 
   sum = largest_sum = arr[0]
 
-  current_point =0;
+  current_point =0
   last_point = 0
 
   for n in arr[1:]:

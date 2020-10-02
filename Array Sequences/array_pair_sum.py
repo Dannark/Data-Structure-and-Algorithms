@@ -32,10 +32,10 @@ def pair_sum(arr,k):
     
     
     # FOR TESTING
-    return len(output)
+    #return len(output)
     # Nice one-liner for printing output
-    #return '\n'.join(map(str,list(output)))
-
+    return '\n'.join(map(str,list(output)))
+print(pair_sum([1,3,2,2,3],4))
 """
 pip install nose
 RUN THIS CELL TO TEST YOUR SOLUTION
